@@ -1,0 +1,243 @@
+{% extends "base.html"%}
+{%load bootstrap4%}
+{%load static%}
+{% block content %}
+<!--Carousel Wrapper-->
+<div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
+    <!--Indicators-->
+    <ol class="carousel-indicators">
+        <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-1z" data-slide-to="1"></li>
+        <li data-target="#carousel-example-1z" data-slide-to="2"></li>
+    </ol>
+    <!--/.Indicators-->
+    <!--Slides-->
+    <div class="carousel-inner" role="listbox">
+        <!--First slide-->
+        <div class="carousel-item active" style="position: relative;text-align: center;color: hsl(0, 11%, 93%); size:30px">
+            <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2017/03/09/06/30/pool-2128578__340.jpg"
+            alt="First slide">
+            <div class="centered" style="position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 10vh;"> <h1>WELCOME TO JHOTEL</h1> </div>
+        </div>
+        <!--/First slide-->
+        <!--Second slide-->
+        <div class="carousel-item" style="position: relative;text-align: center;color: #f5eeeeec; size:30px">
+            <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2014/07/10/17/17/hotel-389256__340.jpg"
+            alt="Second slide">
+            <div class="centered" style="position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 10vh;"><h1>WELCOME TO JHOTEL</h1></div>
+        </div>
+        <!--/Second slide-->
+        <!--Third slide-->
+        <div class="carousel-item"style="position: relative;text-align: center;color: #f5eeeeec; size:30px" >
+            <img class="d-block w-100" src="https://media.istockphoto.com/photos/modern-house-outdoors-at-night-picture-id1225769230?b=1&k=6&m=1225769230&s=170667a&w=0&h=gb9Voce1HDVPvQL6j3leIRDYXqgG6TLXYLjPpzrd9zo="
+            alt="Third slide">
+            <div class="centered" style="position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 10vh;">
+                <h1>WELCOME TO JHOTEL</h1>
+                <P class="text-success">service to at peak</P>
+            </div>
+        </div>
+        <!--/Third slide-->
+    </div>
+    <!--/.Slides-->
+    <!--Controls-->
+    <a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev">
+        <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carousel-example-1z" role="button" data-slide="next">
+        <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+        <span class="sr-only">Next</span>
+    </a>
+    <!--/.Controls-->
+</div>
+
+<!--/.Carousel Wrapper-->
+<div class="container my-5 py-5 z-depth-1">
+    <!--Section: Content-->
+    <section class="text-center px-md-5 mx-md-5 dark-grey-text">
+        <!--Grid row-->
+        <div class="row">
+            <!--Grid column-->
+            <div class="col-lg-6 mb-lg-0 mb-md-4">
+                <!--Image-->
+                <div class="view overlay z-depth-1-half">
+                    <img src="https://mdbootstrap.com/img/Photos/Slides/img%20(5).jpg" class="img-fluid"
+                    alt="">
+                    <a href="#">
+                        <div class="mask rgba-white-slight"></div>
+                    </a>
+                </div>
+            </div>
+            <!--Grid column-->
+            <div class="col-lg-6 ">
+                <h3 class="font-weight-bold">TRANQUIL NIGHTS - DREAM IN A NEW ROOM</h3>
+                <p class="text-muted">Book and save with a 15% discount on our newly refurbished rooms</p>
+                <a class="btn btn-info btn-md waves-effect" href="https://flutterwave.com/pay/jaynavwhj" role="button">BOOK</a>
+                
+            </div>
+            <!--Grid column--> 
+        </div>
+        <!--Grid row-->  
+    </section>
+    <!--Section: Content-->  
+</div>
+
+<div class="view overlay z-depth-1-half" style="padding: 1vh;">
+    <img src="https://cdn.pixabay.com/photo/2015/12/28/10/19/hotel-1111199__340.jpg" class="img-fluid w-100">
+</div>
+
+
+<div class="row view overlay z-depth-1-half padding-1vh" > 
+    <div class="col-2"></div>
+    <div class="col-4"> <h1 class="text-center"> A contemporary five star hotel</h1> </div>
+    <div class="col-4"> 
+        <ul>
+            <li>Privileged location</li>
+            <li>Six world-class bars and restaurants</li>
+            <li>168 spacious, beautifully appointed rooms</li>
+            <li>Multi-functional meeting spaces</li>
+            <li>Magnificent rooftop pool</li>
+            <li>Safe-hotels Executive Level Accreditation</li>
+        </ul>
+    </div>
+    <div class="col-2"></div>
+</div>
+<div class="container my-5">
+    <!--Section: Content-->
+    <section class="text-center dark-grey-text">
+<style>
+        .carousel-multi-item.v-2 .carousel-inner .carousel-item.active,
+        .carousel-multi-item.v-2 .carousel-item-next,
+        .carousel-multi-item.v-2 .carousel-item-prev {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: flex; }
+            display: -ms-flexbox;
+        .carousel-multi-item.v-2 .carousel-item-right.active,
+        .carousel-multi-item.v-2 .carousel-item-next {
+            -webkit-transform: translateX(50%);
+            -ms-transform: translateX(50%);
+            transform: translateX(50%); }
+        .carousel-multi-item.v-2 .carousel-item-left.active,
+        .carousel-multi-item.v-2 .carousel-item-prev {
+            -webkit-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+            transform: translateX(-50%); }
+        .carousel-multi-item.v-2 .carousel-item-right,
+        .carousel-multi-item.v-2 .carousel-item-left {-webkit-transform: translateX(0);-ms-transform: translateX(0);transform: translateX(0); }
+        </style>
+        
+        <h3 class="font-weight-bold pb-4 mb-0 text-center font-weight-bold u">OUR PHOTO GALLERY</h3>
+        <hr class="hr-light my-4 wow fadeInDown" data-wow-delay="0.4s">
+        
+        <div class="row">
+            <div class="col-md-12">
+                
+                <div id="carousel-example-multi" class="carousel slide carousel-multi-item v-2" data-ride="carousel">
+                    
+                    <!--Controls-->
+                    <div class="controls-top">
+                        <a class="btn-floating bg-transparent z-depth-0 m-0" href="#carousel-example-multi" data-slide="prev"><i class="dark-grey-text fas fa-chevron-left"></i></a>
+                        <a class="btn-floating bg-transparent z-depth-0 m-0" href="#carousel-example-multi" data-slide="next"><i class="dark-grey-text fas fa-chevron-right"></i></a>
+                    </div>
+                    <!--/.Controls-->
+                    
+                    <div class="carousel-inner" role="listbox">
+                        
+                        <div class="carousel-item active">
+                            <div class="col-12 col-md-6 mb-4 mx-auto">
+                                <div class="view rounded z-depth-1-half">
+                                    <img src="https://cdn.pixabay.com/photo/2016/11/09/21/28/exclusive-banquet-1812772__340.jpg" class="img-fluid rounded" alt="cuisine">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-12 col-md-6 mb-4 mx-auto">
+                                <div class="view rounded z-depth-1-half">
+                                    <img src="https://cdn.pixabay.com/photo/2015/06/08/15/02/breakfast-801827__340.jpg" class="img-fluid rounded" alt="JHOTEL1">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-12 col-md-6 mb-4 mx-auto">
+                                <div class="view rounded z-depth-1-half">
+                                    <img src="https://cdn.pixabay.com/photo/2016/12/20/21/37/breakfast-hotel-1921530__340.jpg" class="img-fluid rounded" alt="DRINKS">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-12 col-md-6 mx-auto">
+                                <div class="view rounded z-depth-1-half">
+                                    <img src="https://cdn.pixabay.com/photo/2015/04/20/17/38/swimming-pool-731886__340.jpg" class="img-fluid rounded" alt="viewport">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-12 col-md-6 mb-4 mx-auto">
+                                <div class="view rounded z-depth-1-half">
+                                    <img src="https://cdn.pixabay.com/photo/2016/11/18/22/21/restaurant-1837150__340.jpg" class="img-fluid rounded" alt="ambience">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-12 col-md-6 mb-4 mx-auto">
+                                <div class="view rounded z-depth-1-half">
+                                    <img src="https://cdn.pixabay.com/photo/2013/07/19/00/18/water-165219__340.jpg" class="img-fluid rounded" alt="poolside">
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!--Section: Content--> 
+</div>
+<hr class="hr-light my-4 wow fadeInDown" data-wow-delay="0.4s">
+
+<div class="container my-5 py-5 z-depth-1">
+    <!--Section: Content-->
+    <section class="px-md-5 mx-md-5 text-center text-lg-left dark-grey-text">
+
+    <!--Grid row-->
+    <div class="row">
+
+        <!--Grid column-->
+        <div class="col-md-6 mb-4 mb-md-0">
+
+        <!--Image-->
+        <div class="view overlay z-depth-1-half">
+            <img src="https://mdbootstrap.com/img/Photos/Others/img%20(16).jpg" class="img-fluid" alt="">
+            <a href="#">
+                <div class="mask rgba-white-light"></div>
+            </a>
+        </div>
+
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-6 mb-4 mb-md-0">
+
+        <h3 class="font-weight-bold">Our cuisine</h3>
+
+        <p class="text-muted"> JHOTEL means business and we enable our guests to get things done. With more than 250 square metres of multi-functional event facilities in an excellent location at the heart of Westlands, we offer one of the most exclusive and convenient venues for corporate gatherings</p>
+
+        <a class="btn btn-secondary btn-md ml-0" href="{%url 'buk'%}" role="button">BOOK<i class="fa fa-button ml-2"></i></a>
+
+        </div>
+        <!--Grid column-->
+</div>
+<!--Grid row-->
+
+
+    </section>
+    <!--Section: Content-->
+    
+    
+</div>
+
+{% endblock %}

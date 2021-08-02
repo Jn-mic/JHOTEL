@@ -1,0 +1,22 @@
+{% extends "base.html"%}
+{%load bootstrap4 %}
+{%load static%}
+
+{% block content %}
+<div class="carousel-inner" role="listbox">
+    <div class="carousel-item active" style="position: relative;text-align: center;color: hsl(0, 24%, 90%); size:40px">
+        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2014/05/17/18/03/lobby-346426__340.jpg"
+        alt="First slide">
+        <div class="centered" style="position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 10vh;"> <h1 class="text-center">WELCOME TO JHOTEL</h1> </div>
+    </div>
+</div>
+
+<div class="row view overlay z-depth-1-half padding-2vh margin-top-2px" > 
+    <div class="col-3"></div>
+    <div class="col-3"><p> The five-star JHOTEL has long been considered one of Nairobi’s premier conference, wedding and special event venues.</p> </div>
+    <div class="col-3"><p>Whatever the occasion, our experienced professional team and versatile meeting facilities will ensure that your event will be a complete success.</p></div>
+    <div class="col-3"></div>
+</div>
+Business meetings
+
+{% endblock %}
